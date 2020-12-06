@@ -15,7 +15,6 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <Windows.h>
-#include <time.h>
 #include <errno.h>
 #include "win_time.h"
 

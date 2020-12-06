@@ -17,6 +17,8 @@
 #ifndef WIN_TIME_UTILS_H
 #define WIN_TIME_UTILS_H
 
+#include <time.h>
+
 #define DELTA_EPOCH_IN_MICROSECS  11644473600000000Ui64
 
 /* timespec time are expressed since Epoch i.e. since January, 1, 1970
@@ -31,10 +33,10 @@ struct timezone
 	int  tz_dsttime;     // type of dst correction
 };
 
-struct timespec {
+/*struct timespec {
 	time_t tv_sec;  // seconds
 	long tv_nsec;   //nanoseconds
-};
+};*/
 
 typedef enum
 {
